@@ -84,8 +84,11 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 | 'cat2_B3', 'xgb3_fc1', 'xgb2_B1', 'lgbm2_B2', 'cat2_B1', 'xgb3_fc2', 'NN3' | 0.8566027198974991 | 0.85356 |
 | 'lgbm2_B1', 'NN2', 'xgb1', 'NN1', 'cat3_fc2', 'lgbm2_B3', 'xgb2_B3' | 0.8568797837281886 | 0.85598 |
 
-- Codeを高スコア順に見ると複数データを平均したものが高いスコアを得ているみたい...
+- Codeを高スコア順に見ると複数データを加重平均したものが高いスコアを得ているみたい...
+
  https://www.kaggle.com/vamsikrishnab/exploring-submissions-and-power-averaging/notebook
+ 
+- 自分のスタッキングしたものと上urlのデータを平均化するといいデータが得られるかも？
 
 
 ### 20211030
