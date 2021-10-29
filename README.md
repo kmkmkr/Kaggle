@@ -27,6 +27,9 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 ## Log
 ### 20211029
+- start!
+- 
+
 
 ### 20211030
 
