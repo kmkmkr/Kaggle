@@ -69,6 +69,8 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 - [ ] アンサンブル学習1ステージ目で何個モデルをつくるか
 - [ ] 2ステージ目で最終提出するものを作成
 
+![スタッキング](https://user-images.githubusercontent.com/93358183/139364271-bf33ab3f-c24f-45be-bbe6-a452600d5bdc.png)
+
 
 
 ### 20211030
