@@ -92,9 +92,15 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 |model | CV | PB |  
 | ---- | ---- | ---- |  
-| 'lgbm1', 'lgbm3_fc1', 'xgb2_B1', 'xgb2_B2', 'xgb1', 'lgbm2_B1', 'cat3_fc1'2 | 0.8574467951016895 |  |
+| 'lgbm1', 'lgbm3_fc1', 'xgb2_B1', 'xgb2_B2', 'xgb1', 'lgbm2_B1', 'cat3_fc1' | 0.8574467951016895 |  |
 | 'xgb2_B3', 'NN3', 'NN1', 'cat3_fc2', 'lgbm3_fc2', 'cat2_B3', 'cat1' | 0.856891739809438 |  |
 | 'xgb3_fc2', 'xgb3_fc1', 'cat2_B1', 'NN2', 'cat2_B2', 'lgbm2_B3', 'lgbm2_B2' | 0.8567193199172081 |  |
+
+|model | CV | PB |  
+| ---- | ---- | ---- |  
+| 'cat2_B3', 'NN3', 'NN2', 'lgbm2_B1', 'lgbm2_B3', 'xgb3_fc2', 'lgbm1' | 0.8574672850509685 |  |
+| 'cat3_fc1', 'xgb1', 'xgb2_B3', 'xgb2_B2', 'lgbm3_fc2', 'NN1', 'cat3_fc2' | 0.8568912736789993 |  |
+| 'cat2_B2', 'cat1', 'cat2_B1', 'lgbm3_fc1', 'xgb2_B1', 'xgb3_fc1', 'lgbm2_B2' | 0.8569983328997315 |  |
 
 - Codeを高スコア順に見ると複数データを加重平均したものが高いスコアを得ているみたい...
 
