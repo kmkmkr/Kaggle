@@ -90,6 +90,12 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 | 'NN2', 'lgbm2_B2', 'cat2_B3', 'cat3_fc2', 'lgbm2_B3', 'xgb1', 'xgb2_B2' | 0.8548178740981378 |  |
 | 'lgbm2_B1', 'NN2', 'xgb1', 'NN1', 'cat3_fc2', 'lgbm2_B3', 'xgb2_B3' | 0.8569915715933696 |  |
 
+|model | CV | PB |  
+| ---- | ---- | ---- |  
+| 'lgbm1', 'lgbm3_fc1', 'xgb2_B1', 'xgb2_B2', 'xgb1', 'lgbm2_B1', 'cat3_fc1'2 | 0.8574467951016895 |  |
+| 'xgb2_B3', 'NN3', 'NN1', 'cat3_fc2', 'lgbm3_fc2', 'cat2_B3', 'cat1' | 0.856891739809438 |  |
+| 'xgb3_fc2', 'xgb3_fc1', 'cat2_B1', 'NN2', 'cat2_B2', 'lgbm2_B3', 'lgbm2_B2' | 0.8567193199172081 |  |
+
 - Codeを高スコア順に見ると複数データを加重平均したものが高いスコアを得ているみたい...
 
  https://www.kaggle.com/vamsikrishnab/exploring-submissions-and-power-averaging/notebook
@@ -98,6 +104,8 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 
 ### 20211030
+
+
 
 ### 20211031(**Final submission deadline**)
 
