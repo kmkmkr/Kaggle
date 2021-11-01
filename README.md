@@ -173,26 +173,53 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 
 - 大量のデータに対する処理の仕方
   - pandasで読み込むのではなく、DataTableで読み込む
-  
-  https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/276162
+ 
+    https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/276162
   
   - reduce_memory_usage関数でデータのメモリ削減
   
-  
+    りんく
   
 - アンサンブル学習を活用することができた
   - 今回使用したのはスタッキング、パワー平均化の2つの手法
+  - アンサンブル学習によって大きくスコア伸ばすことができた。
   
  
 - 特徴量クラスタリング
   - 今回、大量のバイナリデータが含まれていたので、その取り扱いとしてクラスタリング(k-means)を取り入れた
-  https://yaakublog.com/kmeans_clustering
+  
+    https://yaakublog.com/kmeans_clustering
   
   
 
 ## 今後の課題
 
-- 
+- グラフの活用
+　- モデル間の相関
+　- 特徴量間の相関->独立性はあるか、
+　- 特徴量と正解データの相関
+
+- 統計知識の不足
+　-　アンサンブル学習のときのバイアス、バリアンスやピアソン値、スミルノフ統計値を考慮したモデルの組み合わせ
+
+　　https://www.codexa.net/what-is-ensemble-learning/
+　　https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/51058#290767
+  
+- モデルのパラメータチューニング
+　-　今回全くしなかった
+　-　Optunaを使って最適化するともっとスコアが向上していたかも
+
+- kaggle日記
+　- ノートブックの整理、番号付け->ex) nb001_Lgbm, nb002_NN, .... 
+　- トレーサビリティ->gitにまとめたスコア結果等とノートブックが関連されておらず後から探すのが大変だった。
+　- 計画を立てる->実行の順番でやることで、状況が整理される。
+　- 思い付きでがつがつやると何がなんだがよくわからなくなる。
+  - コンペ締め切り3日前から慌ててやりだしたが、やる前と比べ状況が整理できた。
+  - 次回は最初から日記を書いていきたい
+  
+  　https://zenn.dev/fkubota/articles/3d8afb0e919b555ef068
+ 
+ 
 
 
 
