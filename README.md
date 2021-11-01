@@ -78,31 +78,31 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 #### 結果
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'cat3_fc1', 'lgbm3_fc1', 'cat1', 'lgbm3_fc2', 'cat2_B2', 'lgbm1', 'xgb2_B2' | 0.8573926959907876 | 0.85642 |
 | 'cat2_B3', 'xgb3_fc1', 'xgb2_B1', 'lgbm2_B2', 'cat2_B1', 'xgb3_fc2', 'NN3' | 0.8566027198974991 | 0.85356 |
 | 'lgbm2_B1', 'NN2', 'xgb1', 'NN1', 'cat3_fc2', 'lgbm2_B3', 'xgb2_B3' | 0.8568797837281886 | 0.85598 |
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'NN1', 'cat2_B2', 'xgb3_fc2', 'xgb2_B3', 'xgb3_fc1', 'lgbm1', 'lgbm3_fc2 | 0.8574521048266853 |  |
 | 'NN2', 'lgbm2_B2', 'cat2_B3', 'cat3_fc2', 'lgbm2_B3', 'xgb1', 'xgb2_B2' | 0.8548178740981378 |  |
 | 'lgbm2_B1', 'NN2', 'xgb1', 'NN1', 'cat3_fc2', 'lgbm2_B3', 'xgb2_B3' | 0.8569915715933696 |  |
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'lgbm1', 'lgbm3_fc1', 'xgb2_B1', 'xgb2_B2', 'xgb1', 'lgbm2_B1', 'cat3_fc1' | 0.8574467951016895 |  |
 | 'xgb2_B3', 'NN3', 'NN1', 'cat3_fc2', 'lgbm3_fc2', 'cat2_B3', 'cat1' | 0.856891739809438 |  |
 | 'xgb3_fc2', 'xgb3_fc1', 'cat2_B1', 'NN2', 'cat2_B2', 'lgbm2_B3', 'lgbm2_B2' | 0.8567193199172081 |  |
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'cat2_B3', 'NN3', 'NN2', 'lgbm2_B1', 'lgbm2_B3', 'xgb3_fc2', 'lgbm1' | 0.8574672850509685 |  |
 | 'cat3_fc1', 'xgb1', 'xgb2_B3', 'xgb2_B2', 'lgbm3_fc2', 'NN1', 'cat3_fc2' | 0.8568912736789993 |  |
 | 'cat2_B2', 'cat1', 'cat2_B1', 'lgbm3_fc1', 'xgb2_B1', 'xgb3_fc1', 'lgbm2_B2' | 0.8569983328997315 |  |
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'NN2', 'xgb2_B2', 'xgb2_B3', 'xgb2_B1', 'NN3', 'cat2_B2', 'cat2_B3' | 0.8562205149678825 |  |
 | 'lgbm2_B1', 'lgbm1', 'xgb3_fc1', 'xgb3_fc2', 'lgbm2_B3', 'lgbm3_fc2', 'lgbm3_fc1' | 0.8574390667044178 |  |
@@ -121,7 +121,7 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 **使用したモデル**
 
-|model | CV | PB |  
+|model | CV | LB |  
 | ---- | ---- | ---- |  
 | 'NN3', 'cat1', 'NN1', 'xgb2_B3', 'cat2_B3', 'cat2_B1', 'lgbm1' | 0.8574906266129305 | 0.85650 |
 | 'cat2_B3', 'NN3', 'NN2', 'lgbm2_B1', 'lgbm2_B3', 'xgb3_fc2', 'lgbm1' | 0.8574672850509685 | 0.85644 |
