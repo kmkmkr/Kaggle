@@ -167,9 +167,28 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 - LBの順位は141位(全体の11%)だった。
 - 悪くはない順位だったが、少し物足りない結果に...
 
+# 振り返り
+
 ## 今回得たこと
 
--
+- 大量のデータに対する処理の仕方
+  - pandasで読み込むのではなく、DataTableで読み込む
+  
+  https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/276162
+  
+  - reduce_memory_usage関数でデータのメモリ削減
+  
+  
+  
+- アンサンブル学習を活用することができた
+  - 今回使用したのはスタッキング、パワー平均化の2つの手法
+  
+ 
+- 特徴量クラスタリング
+  - 今回、大量のバイナリデータが含まれていたので、その取り扱いとしてクラスタリング(k-means)を取り入れた
+  https://yaakublog.com/kmeans_clustering
+  
+  
 
 ## 今後の課題
 
