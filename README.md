@@ -178,7 +178,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
   
   - reduce_memory_usage関数でデータのメモリ削減
   
-    りんく
+    https://github.com/fa545506/TPS-Oct2021/blob/main/nb/reduce_memory_usage.py
   
 - アンサンブル学習を活用することができた
   - 今回使用したのはスタッキング、パワー平均化の2つの手法
