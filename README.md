@@ -222,8 +222,20 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
  
  
 
+## その他の学び
+- k-meansの最適なクラスタ数
+  - エルボー法とシルエット分析
+  
+    https://qiita.com/shuva/items/bcf700bd32ae2bbb63c7#elbow-method
+    
+    https://www.kaggle.com/motchan/tps-oct-2021-kmeans/comments
+ 
+ - Bouta-SHAPを用いた特徴量選択
+   - SHAPはどの特徴量がスコアに寄与したかを教えてくれるもの
+   - 今回の訓練データは特徴量が非常に多かったのでいかに有効な特徴量を選べるかがカギになった。
 
-
+    https://www.kaggle.com/lucamassaron/feature-selection-using-boruta-shap
+    
 
 
 
