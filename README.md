@@ -237,7 +237,6 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
     https://www.kaggle.com/lucamassaron/feature-selection-using-boruta-shap
     
 - seed値を変えたモデルを複数作成し、それを平均化する
-  - 
   
   https://www.kaggle.com/adamwurdits/15-lgbms-trained-on-20-seeds-dataset-included/notebook
 
