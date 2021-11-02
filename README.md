@@ -254,5 +254,9 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
             https://keras.io/examples/structured_data/classification_with_grn_and_vsn/
             https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/284511
 
-
-
+- Leave One Feature Out (LOFO)による特徴量重要度の算出
+  - lgbmやNNなどのモデルに問わず行える
+  - モデルごとに異なる重要度を使う必要がなくなる
+ 
+    https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/281993
+  　https://www.kaggle.com/c/microsoft-malware-prediction/discussion/79415
