@@ -247,6 +247,12 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
   -  RidgeCV
 
 
+- 今回のコンペでNN系のモデルが軒並みCV、Public、Private全てで低かった。
+  ->その原因は特徴量の数が多く、ノイズが発生したためスコアが伸びなかった。
+  ->その対策:いかに最適な特徴量を得られるかがカギ、手法としてVariable Selection Networks
+            https://arxiv.org/abs/1912.09363
+            https://keras.io/examples/structured_data/classification_with_grn_and_vsn/
+            https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/284511
 
 
 
