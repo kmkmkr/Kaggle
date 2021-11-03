@@ -164,7 +164,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 | 'NN3', 'cat1', 'NN1', 'xgb2_B3', 'cat2_B3', 'cat2_B1', 'lgbm1' | 0.8574906266129305 | 0.85650 | 0.85641 |
 | PowerAverage |  | 0.85649 | 0.85639 |
 
-- LBの順位は141位(全体の11%)だった。
+- LBの順位は141位(全体の13%)だった。
 - 悪くはない順位だったが、少し物足りない結果に...
 
 # 振り返り
