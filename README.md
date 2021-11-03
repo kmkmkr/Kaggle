@@ -167,6 +167,41 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 - LBの順位は141位(全体の13%)だった。
 - 悪くはない順位だったが、少し物足りない結果に...
 
+
+
+### 20211103（After closing)
+
+- クラスタリングのエルボー法をやってみた
+  - B_featureの正規化なし
+    
+    肘が見当たらないw
+    
+    恐らく6あたり？
+    
+    ![image](https://user-images.githubusercontent.com/93358183/140011994-0ed8f801-7c80-4875-8fba-9496fd85fd52.png)
+
+  -  B_featureの正規化あり（標準化）
+     
+     うーん、意味なしw
+     
+  　　![image](https://user-images.githubusercontent.com/93358183/140011980-c6f0badf-532a-4a55-88d8-6fb247128529.png)
+
+  - B_feature以外
+  
+    ![image](https://user-images.githubusercontent.com/93358183/140011961-80314b98-f23d-4c5b-a3fd-f4591a7f14c1.png)
+
+  - B_featureのみ
+   - 正規化
+    
+     ![image](https://user-images.githubusercontent.com/93358183/140011873-10c5ecc3-346b-424e-b804-f5a62a969544.png)
+  
+   - 正規化なし
+     
+     ![image](https://user-images.githubusercontent.com/93358183/140011900-047101e9-5df9-47c7-9735-884f81db3418.png)
+
+  
+ 
+
 # 振り返り
 
 ## 今回得たこと
