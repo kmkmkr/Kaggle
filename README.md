@@ -208,7 +208,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 - 全パラのほうは4h実行、部パラのほうは100回試行
 - もっと時間を掛けたら大きく変化するかも？
 
-  - 初期パラメータ
+  - 初期パラメータ -> https://github.com/fa545506/TPS-Oct2021/blob/main/nb/n002-optuna-lgbm.ipynb
    
     #### 結果
     
@@ -216,7 +216,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
     | ---- | ---- | ---- | ---- |
     | 'NN3', 'cat1', 'NN1', 'xgb2_B3', 'cat2_B3', 'cat2_B1', 'lgbm1' | 0.8574905274728372 | 0.85650 | 0.85641 |
  
-  - 全部のパラメータチューニング　->
+  - 全部のパラメータチューニング　-> https://github.com/fa545506/TPS-Oct2021/blob/main/nb/n002-optuna-lgbm.ipynb
    　
     #### 結果
     
@@ -224,7 +224,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
     | ---- | ---- | ---- | ---- |
     | 'NN3', 'cat1', 'NN1', 'xgb2_B3', 'cat2_B3', 'cat2_B1', 'lgbm1' | 0.8574726465060132 | 0.85652 | 0.85641 |
   
-  - 一部のパラメータチューニング　->
+  - 一部のパラメータチューニング　-> https://github.com/fa545506/TPS-Oct2021/blob/main/nb/n003-optuna-lgbm.ipynb
 
     #### 結果
     
