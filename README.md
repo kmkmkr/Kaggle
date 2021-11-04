@@ -207,9 +207,10 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
 - ほとんどオリジナルと変化なかったが、PublicスコアとCVが若干変化した。
 - 全パラのほうは4h実行、部パラのほうは100回試行
 - もっと時間を掛けたら大きく変化するかも？
-　- 初期パラメータ
+
+  - 初期パラメータ
    
-　  ####結果
+    #### 結果
     
     |model | CV | P | Private |
     | ---- | ---- | ---- | ---- |
@@ -217,7 +218,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
  
   - 全部のパラメータチューニング　->
    　
-    ####結果
+    #### 結果
     
     |model | CV | P | Private |
     | ---- | ---- | ---- | ---- |
@@ -225,7 +226,7 @@ https://www.kaggle.com/joecooper/tps-oct-joes-sandpit?scriptVersionId=78350199
   
   - 一部のパラメータチューニング　->
 
-    ####結果
+    #### 結果
     
     |model | CV | P | Private |
     | ---- | ---- | ---- | ---- |
