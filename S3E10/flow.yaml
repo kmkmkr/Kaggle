@@ -1,0 +1,91 @@
+lgb :
+  n_estimators: 10000
+  random_state: 10
+  learning_rate: 0.05
+  verbose : 0
+  metric : "binary_logloss"
+  importance_type : "gain"
+
+xgb :
+  n_estimators: 10000
+  random_state: 10
+  learning_rate: 0.05
+  verbosity : 0
+  eval_metric : "logloss"
+  importance_type : "gain"
+cat :
+  n_estimators: 10000
+  random_state: 10
+  learning_rate: 0.05
+  verbose : 0
+  eval_metric : 'Logloss'
+  loss_function: 'Logloss'
+  # importance_type : "gain"
+
+Rf :
+  n_estimators : 10000
+  criterion: 'log_loss'
+  random_state: 10
+  max_depth : 5
+Gb :
+  n_estimators : 10000
+  # criterion: 'log_loss'
+  random_state : 10
+  max_depth : 5
+Ada :
+  n_estimators : 10000
+  # criterion: 'log_loss'
+  random_state : 10
+Dt :
+  criterion : 'log_loss'
+  random_state : 10
+  max_depth : 5
+L_svc :
+  kernel : 'linear'
+  probability : True
+  C : 0.025
+RBF_svc : 
+  kernel : 'rbf'
+  probability : True
+  C : 1
+  gamma : 'auto'
+mlp :
+  random_state : 10
+  max_iter : 1000
+Kn :
+  n_neighbors : 5
+Cc :
+  cv : 2
+  method : 'isotonic'
+
+
+train_path : "./data/playground-series-s3e10/train.csv"
+test_path : "./data/playground-series-s3e10/test.csv"
+ori_path : "./data/pulsar-classification-for-class-prediction/Pulsar.csv"
+sub_path : "./data/playground-series-s3e10/sample_submission.csv"
+use_cols : []
+n_folds : 5
+
+save_dir : "0"
+
+target : 'Class'
+
+optuna_trial : 1000
+
+random_state : 10
+
+early_stopping_rounds : 1000
+
+verbose : 1000
+
+drop_duplicate : True
+
+submit : True
+
+save_f_im : False
+
+is_agg : False
+
+score_direction : "maximize"
+
+index_col : 'id'
